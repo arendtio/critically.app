@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="/critically.app/favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		<meta name="metro4:init" content="false"/>
+		
+		<link rel="modulepreload" href="/critically.app/_app/immutable/entry/start.68bdbb80.js">
+		<link rel="modulepreload" href="/critically.app/_app/immutable/chunks/scheduler.72a81396.js">
+		<link rel="modulepreload" href="/critically.app/_app/immutable/chunks/singletons.52dc495d.js">
+		<link rel="modulepreload" href="/critically.app/_app/immutable/chunks/index.2391f01a.js">
+		<link rel="modulepreload" href="/critically.app/_app/immutable/entry/app.adf3ee56.js">
+		<link rel="modulepreload" href="/critically.app/_app/immutable/chunks/index.d11d4d66.js">
+	</head>
+	<body data-sveltekit-preload-data="hover">
+		<div style="display: contents">
+			<script>
+				{
+					__sveltekit_1ljn4bh = {
+						assets: "/critically.app",
+						base: "/critically.app",
+						env: {}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("/critically.app/_app/immutable/entry/start.68bdbb80.js"),
+						import("/critically.app/_app/immutable/entry/app.adf3ee56.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element);
+					});
+				}
+			</script>
+		</div>
+		<script src="../node_modules/metro4/build/js/metro.min.js"></script>
+	</body>
+</html>
