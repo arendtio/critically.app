@@ -1,0 +1,1 @@
+:root{--line:30px}.timeline.svelte-lryuz5{display:grid;grid-auto-flow:row;grid-auto-rows:var(--line);background:linear-gradient(rgba(0,0,0,.04) 1px,transparent 1px),#fff;background-size:var(--line) var(--line)}.task.svelte-lryuz5{overflow:scroll;text-overflow:ellipsis}
