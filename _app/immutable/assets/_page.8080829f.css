@@ -1,0 +1,1 @@
+:root{--line:30px}.tgrid.svelte-vshvfl{display:grid;grid-auto-flow:row}.headings.svelte-vshvfl{line-height:40px}.timeline.svelte-vshvfl{grid-auto-rows:var(--line);height:100%;overflow:scroll;background:linear-gradient(rgba(0,0,0,.04) 1px,transparent 1px),#fff;background-size:var(--line) var(--line)}.task.svelte-vshvfl{overflow:auto;text-overflow:ellipsis}
